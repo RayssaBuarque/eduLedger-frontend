@@ -1,7 +1,6 @@
 import styles from './RatingDiagram.module.css';
-
+import Example from '../../PieChart/PieChart';
 // IMAGENS
-import rating from '../../../assets/diagrams/rating.png'
 
 const RatingDiagram = () => {
 
@@ -15,8 +14,7 @@ const RatingDiagram = () => {
         </div>
 
         <div className='diagram'>
-            <label>Lorem ipsum dolor sit amet, consectetur</label>
-            <img className={styles.diagramImg} src={rating} alt="Diagram"/>
+            <Example/>
         </div>
           
     </div>

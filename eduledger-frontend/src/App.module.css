@@ -37,14 +37,14 @@ body {
 .title {
   font-size: 1.5rem;
   text-align: center;
-  color: #780D69;
+  color: #561410;
   margin-bottom: 1rem;
 }
 
 .subtitle {
   font-size: 1.2rem;
   text-align: center;
-  color: #780D69;
+  color: #561410;
   margin-bottom: 1rem;
 }
 
@@ -54,8 +54,8 @@ body {
   justify-content: center;
   padding: 0.8rem;
   margin: 0.5rem 0;
-  color: #780D69;
-  border: 1px solid #780D69;
+  color: #561410;
+  border: 1px solid #561410;
   border-radius: 4px;
   font-size: 1rem;
   background-color: #FAFAFA;
@@ -67,7 +67,7 @@ body {
   margin: 0.5rem 0;
   border: none;
   border-radius: 8px;
-  background: #780D69;
+  background: #561410;
   color: white;
   font-size: 1rem;
   cursor: pointer;
@@ -75,7 +75,7 @@ body {
 }
 
 .btn:hover {
-  background: #780D69;
+  background: #561410;
   text-decoration: none;
 }
 
@@ -105,23 +105,23 @@ input:focus {
   --lighter-background: #F6F6FB;
   
   --fun-button-background: #F1F1F1;
-  --fun-button-text: #840F74;
+  --fun-button-text: #561410;
   --button-background: #F1F1F1;
-  --button-text: #840F74;
+  --button-text: #561410;
   
-  --headline-main: #840F74;
+  --headline-main: #561410;
   --headline1: #000000;
   --headline2: #1F384C;
   --text: #2F2F2F;
   --lightText: #737B8B;
   
-  --purple: #840F74;
-  --lightPurple: #BB35A9;
-  --dark-purple: #590059;
+  --purple: #561410;
+  --lightPurple: #561410;
+  --dark-purple: #561410;
   --green: #149D52;
   --off-white: #F1F1F1;
 
-  --darkish-purple: #780D69;
+  --darkish-purple: #561410;
 
   --white: #DEDEDE;
   --search-bar-text: #2F2F2F;
@@ -136,7 +136,7 @@ html[data-theme="dark"] {
   --background: #191A1A;
   --lighter-background: #202222;
 
-  --fun-button-background: #840F74;
+  --fun-button-background: #561410;
   --fun-button-text: #F1F1F1;
   --button-background: #780D694D;
   --button-text: #DEDEDE;
@@ -146,9 +146,9 @@ html[data-theme="dark"] {
   --headline2: #DEDEDE;
   --text: #DEDEDE;
 
-  --purple: #780D69;
-  --dark-purple: #590059;
-  --lightPurple: #6B227E;
+  --purple: #561410;
+  --dark-purple: #561410;
+  --lightPurple: #561410;
   --green: #149D52;
   --off-white: #F1F1F1;
 
