@@ -1,0 +1,33 @@
+.starContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.selected {
+  color: gold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.selected:hover {
+  transform: scale(1.2);
+}
+
+.unselected {
+  color: gray;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.unselected:hover {
+  transform: scale(1.2);
+}
+
+.ratingText {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
