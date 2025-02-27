@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url("assets/background.svg") no-repeat; 
+  background-color: white;
+  background-size: cover;
+  /* height: 100vh;
+  width: 100vw; */
+  margin: 0;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.containerBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #780D69;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #780D69;
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  color: #780D69;
+  border: 1px solid #780D69;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #FAFAFA;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 8px;
+  background: #780D69;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #780D69;
+  text-decoration: none;
+}
+
+.text {
+  text-align: center;
+  color: #666666;
+}
+
+.iconHeather{
+  width: 15%;
+}
+
+.errorText{
+  color: #F2451C;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
+
+/* Tema claro */
+:root {
+  --background: #ffffff;
+  --pure-white: #ffffff;
+
+  --lighter-background: #F6F6FB;
+  
+  --fun-button-background: #F1F1F1;
+  --fun-button-text: #840F74;
+  --button-background: #F1F1F1;
+  --button-text: #840F74;
+  
+  --headline-main: #840F74;
+  --headline1: #000000;
+  --headline2: #1F384C;
+  --text: #2F2F2F;
+  --lightText: #737B8B;
+  
+  --purple: #840F74;
+  --lightPurple: #BB35A9;
+  --dark-purple: #590059;
+  --green: #149D52;
+  --off-white: #F1F1F1;
+
+  --darkish-purple: #780D69;
+
+  --white: #DEDEDE;
+  --search-bar-text: #2F2F2F;
+  --sideBar: #202222;
+  /* --background: #191A1A; */
+  --pure-black: #000000;
+  --search-bar: #F6F6FB;
+}
+
+/* Tema escuro */
+html[data-theme="dark"] {
+  --background: #191A1A;
+  --lighter-background: #202222;
+
+  --fun-button-background: #840F74;
+  --fun-button-text: #F1F1F1;
+  --button-background: #780D694D;
+  --button-text: #DEDEDE;
+
+  --headline-main: #F1F1F1;
+  --headline1: #DEDEDE;
+  --headline2: #DEDEDE;
+  --text: #DEDEDE;
+
+  --purple: #780D69;
+  --dark-purple: #590059;
+  --lightPurple: #6B227E;
+  --green: #149D52;
+  --off-white: #F1F1F1;
+
+  --darkish-purple: #3C1146;
+
+  --pure-white: #121212;
+  --white: #1F1F1F;
+  --sideBar: #1B1B1B;
+  --background: #101010;
+  --pure-black: #000000;
+  --search-bar: #2E2E2E;
+}
