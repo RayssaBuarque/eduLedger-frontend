@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import Discover from './pages/Discover/Discover';
 import Chat from "./pages/Chat/Chat"
 import './App.module.css';
+import Tutorial from './pages/Tutorial/Tutorial';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/discover" element={<Discover />} />
         <Route path="/chat" element={<Chat />} />
+        <Route path="/tutorial" element={<Tutorial />} />
       </Routes>
     </Router>
   );
