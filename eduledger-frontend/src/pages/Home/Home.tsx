@@ -11,6 +11,8 @@ import TrasuresDiagram from '../../components/Diagrams/TreasuresDiagram/Treasure
 import RatingDiagram from '../../components/Diagrams/RatingDiagram/RatingDiagram';
 import TransactionsDiagram from '../../components/Diagrams/TransactionsDiagram/TransactionsDiagram';
 
+
+
 const Home = () => {
   const [userName, setUserName] = useState('');
 

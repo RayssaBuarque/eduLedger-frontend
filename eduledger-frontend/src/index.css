@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #561410;
   text-decoration: inherit;
 }
 a:hover {
@@ -52,7 +52,7 @@ button {
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: #561410;
 }
 button:focus,
 button:focus-visible {
@@ -65,7 +65,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #561410;
   }
   button {
     background-color: #f9f9f9;
