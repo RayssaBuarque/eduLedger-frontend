@@ -4,7 +4,7 @@ import Transaction from './pages/Transaction';
 import Home from './pages/Home/Home';
 import Discover from './pages/Discover/Discover';
 import Chat from "./pages/Chat/Chat";
-import FlashcardsPage from "./pages/Flashcards/FlashcardsPage";
+import FlashcardsPage from "./pages/FlashCards/FlashcardsPage";
 import './App.module.css';
 import Tutorial from './pages/Tutorial/Tutorial';
 

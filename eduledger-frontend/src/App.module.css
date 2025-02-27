@@ -2,7 +2,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: url("assets/background.svg") no-repeat; 
   background-color: white;
   background-size: cover;
   /* height: 100vh;
@@ -102,7 +101,7 @@ input:focus {
   --background: #ffffff;
   --pure-white: #ffffff;
 
-  --lighter-background: #F6F6FB;
+  --lighter-background: #FCF7CD;
   
   --fun-button-background: #F1F1F1;
   --fun-button-text: #561410;
